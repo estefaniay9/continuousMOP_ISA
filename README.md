@@ -7,4 +7,3 @@ So far, the following has been done:
 * Automate reading in above chosen problems and algorithms and calculating metrics.
 * COCO functions adjusted to read directly into PlatEMO. Functions are still lacking a PF. Will read in when obtained.
 * Adjusted Global.m that is used to include the COCO dimensions in the filename.
-* Data outputs obtained so far.
