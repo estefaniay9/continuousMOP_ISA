@@ -4,7 +4,7 @@ function y = structfind(data,prob,alg)
 %   Y = STRUCTFIND(DATA,PROB) will search through a data structure and find
 %   the list of indexes in the structure which corresponds 
 %   to the problem arguments.
-%   Y = STRUCTFIND(DATA,PROB, ALG) will search through a data structure and
+%   Y = STRUCTFIND(DATA,PROB,ALG) will search through a data structure and
 %   find the index that matches with the problem and algorithm arguments.
 
 switch nargin
