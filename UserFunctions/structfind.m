@@ -1,6 +1,6 @@
 function y = structfind(data,prob,alg)
 
-% STRUCTFIND search a structure for a problemtype
+% STRUCTFIND search a structure for a problem type
 %   Y = STRUCTFIND(DATA,PROB) will search through a data structure and find
 %   the list of indexes in the structure which corresponds 
 %   to the problem arguments.
