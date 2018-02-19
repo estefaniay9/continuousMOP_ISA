@@ -10,8 +10,6 @@ newData1 = load('-mat', fileToRead1);
 
 % Create new variables in the base workspace from those fields.
 vars = fieldnames(newData1);
-
-% Start from two as Population is an ambiguous name and we will rename it
 for i = 1:length(vars)
     assignin('base', vars{i}, newData1.(vars{i}));
 end
