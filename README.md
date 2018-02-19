@@ -1,6 +1,6 @@
 # punim0369
 
-This project is a collection of the COCO and PlatEMO platforms, with the aim of automating code to run through the problems and algorithms and obtain final results.
+This project is a collection of the COCO and PlatEMO platforms, with the aim of automating code to run through the problems and algorithms to obtain performance metrics across all problems.
 
 So far, the following has been done:
 * Automate PlatEMO run for chosen problems and algorithms. COCO problems runs in a separate file.
