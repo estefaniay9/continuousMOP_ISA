@@ -30,7 +30,7 @@ function varargout = COCO13(Operation,Global,input)
             
             Global.M        = 2;
             Global.M        = 2;
-            Global.D        = length(cocoProblemGetSmallestValuesOfInterest(problem));
+            Global.D        = 2;
             Global.lower    = cocoProblemGetSmallestValuesOfInterest(problem);
             Global.upper    = cocoProblemGetLargestValuesOfInterest(problem);
             Global.operator = @EAreal;
@@ -44,8 +44,8 @@ function varargout = COCO13(Operation,Global,input)
             PopDec = input;
             
             PopObj = [];
-            for i = 1:length(PopDec)
-                PopCost = CostFunction(PopDec(i,1:end));
+            for i = 1:size(PopDec,1)
+                PopCost = CostFunction(PopDec(i,:));
                 PopObj = [PopObj; PopCost];
             end
 
