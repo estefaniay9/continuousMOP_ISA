@@ -30,7 +30,7 @@ function varargout = COCO16(Operation,Global,input)
             
             Global.M        = 2;
             Global.M        = 2;
-            Global.D        = length(cocoProblemGetSmallestValuesOfInterest(problem))
+            Global.D        = length(cocoProblemGetSmallestValuesOfInterest(problem));
             Global.lower    = cocoProblemGetSmallestValuesOfInterest(problem);
             Global.upper    = cocoProblemGetLargestValuesOfInterest(problem);
             Global.operator = @EAreal;
