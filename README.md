@@ -9,7 +9,9 @@ So far, the following has been done:
 * Adjusted Global.m that is used to include the COCO dimensions in the filename.
 
 ***Updates September 2020***
+
 **Pre-requisites**
+
 PlatEMO v2.2.1: https://github.com/BIMK/PlatEMO.git
 
 bbobela: https://github.com/andremun/bbobela.git
