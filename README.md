@@ -10,7 +10,7 @@ So far, the following has been done:
 
 ***Updates September 2020***
 **Pre-requisites**
-PlatEMO v2.2.1: https://github.com/BIMK/PlatEMO.git \\
+PlatEMO v2.2.1: https://github.com/BIMK/PlatEMO.git //
 bbobela: https://github.com/andremun/bbobela.git
 
 * Updated to be compatible with PlatEMO v2.2.1
