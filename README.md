@@ -7,3 +7,10 @@ So far, the following has been done:
 * Automate reading in above chosen problems and algorithms and calculating metrics.
 * COCO functions adjusted to read directly into PlatEMO. Functions are still lacking a PF. Will read in when obtained.
 * Adjusted Global.m that is used to include the COCO dimensions in the filename.
+
+
+Updates September 2020
+* Updated to be compatible with PlatEMO v2.2.1
+* New Global file generated for problem variants (including a probindex flag)
+* Added files relating to generating pseudo-random walks in continuous multi-objective space across problems
+* Added pseudo-algorithm for random walk sequence
