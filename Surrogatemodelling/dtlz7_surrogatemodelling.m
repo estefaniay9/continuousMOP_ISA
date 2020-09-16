@@ -5,7 +5,6 @@ clc; clear;
 load dtlz_params
 avg_runs = [30];
 algs = ["GrEA"; "HypE"; "IBEA"; "MOEAD"; "NSGAII"; "NSGAIII"; "RVEA"; "SPEA2"];
-algs = algs(1)
 for a = 1:length(avg_runs)
 %     for r = 1:length(rng_runs)
         for i = 1:length(algs)
