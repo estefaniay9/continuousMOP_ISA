@@ -6,7 +6,6 @@ load WFG_parameters.mat
 Control how they are run.
 avg_runs = [30];
 algs = ["GrEA"; "HypE"; "IBEA"; "MOEAD"; "NSGAII"; "NSGAIII"; "RVEA"; "SPEA2"];
-algs = algs(1)
 for a = 1:length(avg_runs)
        for i = 1:length(algs)
            rng('default');
