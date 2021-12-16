@@ -8,6 +8,6 @@ PlatEMO v2.2.1: https://github.com/BIMK/PlatEMO.git
 
 bbobela: https://github.com/andremun/bbobela.git
 
-MATSuMoTo: https://github.com/Piiloblondie/MATSuMoTo.git
+MATSuMoTo: https://github.com/Piiloblondie/MATSuMoTo.git (Only if creating new instances using DACE method. This is how the new_DTLZ and new_WFG problems were generated.)
 
 InstanceSpace: https://github.com/andremun/InstanceSpace
