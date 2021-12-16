@@ -1,6 +1,8 @@
 function [obclust_n, obclust_min, obclust_max, obclust_range] = obclust(objvar)
-    %------------------Bias------------------
-    %Density in space - how many clusters are there? How much in each cluster?
+%------------------Bias------------------
+	rmimg = find(sum(imag(objvar)~= 0,2));
+	objvar(rmimg,:) = [];
+%Density in space - how many clusters are there? How much in each cluster?
     rng('default')
     va = evalclusters(objvar, 'kmeans', 'CalinskiHarabasz', 'KList', [1:20]);
 

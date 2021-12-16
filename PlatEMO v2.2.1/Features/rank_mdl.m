@@ -1,4 +1,7 @@
 function [mdl_r2, range_coeff] = rank_mdl(decvar, objvar)
+	rmimg = find(sum(imag(objvar)~= 0,2));
+	objvar(rmimg,:) = [];
+	decvar(rmimg,:) = [];
 %------------------Linearity------------------
     ranksort = NDSort(objvar,length(objvar));
 % Fit a linear model using the normalised decision objectives
